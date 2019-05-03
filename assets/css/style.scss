@@ -1,13 +1,19 @@
 /*
  * Color settings
  */
-$slr_color: #ef6700;
-.slr_color {
-    background-color: $slr_color !important;
+$slr_color_primary: #ef6700;
+$slr_color_secondary: #4225cc;
+
+.slr_color_primary {
+    background-color: $slr_color_primary !important;
+}
+
+.slr_color_secodary {
+    background-color: $slr_color_secondary !important;
 }
 
 .slr_text {
-    color: $slr_color !important;
+    color: $slr_color_primary !important;
 }
 
 html, body {
@@ -41,7 +47,7 @@ header,
 
 @media (min-width: 800px) and (max-width: 850px) {
     .navbar:not(.top-nav-collapse) {
-        background: $slr_color !important;
+        background: $slr_color_primary !important;
     }
 }
 
@@ -96,22 +102,11 @@ header,
 }
 
 .top-nav-collapse {
-    background-color: $slr_color;
-    color: #000000 !important;
-    &.navbar-dark .navbar-brand {
-        color: #000000;
-    }
-
-    &.navbar-dark .breadcrumb .nav-item .nav-link, &.navbar-dark .navbar-nav .nav-item .nav-link {
-        color: #000000;
-        -webkit-transition: .35s;
-        -o-transition: .35s;
-        transition: .35s;
-    }
+    background-color: $slr_color_primary;
 
     .dropdown-menu {
         border-top: none;
-        background-color: $slr_color !important;
+        background-color: $slr_color_primary !important;
 
         a:hover {
             background-color: rgba(0, 0, 0, .3) !important;
@@ -143,7 +138,7 @@ header,
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: $slr_color;
+        background-color: $slr_color_primary;
     }
 }
 
@@ -182,4 +177,14 @@ header,
     &.fb-ic {
         color: #3b5998 !important;
     }
+}
+
+.btn-slr-pr {
+    background-color: $slr_color_primary !important;
+    color: #fff;
+}
+
+.btn-slr-sec {
+    background-color: $slr_color_secondary !important;
+    color: #fff;
 }

@@ -1,8 +1,12 @@
 /*
  * Color settings
  */
-.slr_color {
+.slr_color_primary {
   background-color: #ef6700 !important;
+}
+
+.slr_color_secodary {
+  background-color: #4225cc !important;
 }
 
 .slr_text {
@@ -89,16 +93,6 @@ header,
 
 .top-nav-collapse {
   background-color: #ef6700;
-  color: #000000 !important;
-}
-.top-nav-collapse.navbar-dark .navbar-brand {
-  color: #000000;
-}
-.top-nav-collapse.navbar-dark .breadcrumb .nav-item .nav-link, .top-nav-collapse.navbar-dark .navbar-nav .nav-item .nav-link {
-  color: #000000;
-  -webkit-transition: 0.35s;
-  -o-transition: 0.35s;
-  transition: 0.35s;
 }
 .top-nav-collapse .dropdown-menu {
   border-top: none;
@@ -159,6 +153,16 @@ header,
 }
 .icon.fb-ic {
   color: #3b5998 !important;
+}
+
+.btn-slr-pr {
+  background-color: #ef6700 !important;
+  color: #fff;
+}
+
+.btn-slr-sec {
+  background-color: #4225cc !important;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
