@@ -1,0 +1,164 @@
+/*
+ * Color settings
+ */
+.slr_color {
+  background-color: #ef6700 !important;
+}
+
+.slr_text {
+  color: #ef6700 !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+body,
+header,
+.view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+body,
+header,
+.view {
+    height: 650px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #ef6700 !important;
+  }
+}
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-collapse {
+  transition: 0.7s all;
+}
+.navbar-collapse a.dropdown-item {
+  color: #ffffff !important;
+}
+.navbar-collapse a.dropdown-item:hover {
+  background-color: black;
+}
+
+/*.fixed-top {
+    max-height: 100%;
+    overflow-y: auto;
+}*/
+.avatar {
+  pointer-events: stroke;
+}
+.avatar img {
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.top-nav-collapse {
+  background-color: #ef6700;
+  color: #000000 !important;
+}
+.top-nav-collapse.navbar-dark .navbar-brand {
+  color: #000000;
+}
+.top-nav-collapse.navbar-dark .breadcrumb .nav-item .nav-link, .top-nav-collapse.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #000000;
+  -webkit-transition: 0.35s;
+  -o-transition: 0.35s;
+  transition: 0.35s;
+}
+.top-nav-collapse .dropdown-menu {
+  border-top: none;
+  background-color: #ef6700 !important;
+}
+.top-nav-collapse .dropdown-menu a:hover {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse li a:not(.dropdown-item):before {
+    content: "";
+    width: 60px;
+    position: absolute;
+    border-bottom: 4px solid;
+    bottom: 0;
+    right: 350px;
+    transition: 0.7s all;
+  }
+  .navbar-collapse li a:not(.dropdown-item):hover:before {
+    right: 0;
+  }
+}
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #ef6700;
+  }
+}
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%;
+}
+.carousel .carousel-inner {
+  height: 100%;
+}
+.carousel .carousel-inner .carousel-item, .carousel .carousel-inner .active {
+  height: 100%;
+}
+
+.icon.fb-ic {
+  color: #3b5998 !important;
+}
+.icon.tw-ic {
+  color: #1da1f2 !important;
+}
+.icon.yt-ic {
+  color: #ff0000 !important;
+}
+.icon.fb-ic {
+  color: #3b5998 !important;
+}
+.icon.fb-ic {
+  color: #3b5998 !important;
+}
+.icon.fb-ic {
+  color: #3b5998 !important;
+}
+.icon.fb-ic {
+  color: #3b5998 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
