@@ -13,8 +13,49 @@
   color: #ef6700 !important;
 }
 
-html, body {
-  height: 100%;
+.breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+
+.btn-social {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+  margin: 10px;
+  position: relative;
+  vertical-align: middle;
+  z-index: 1;
+  overflow: hidden;
+}
+.btn-social i {
+  font-size: 1.25rem !important;
+  line-height: 47px;
+  display: inline-block;
+  width: inherit;
+  text-align: center;
+  color: #ffffff;
+}
+.btn-social.fb-ic {
+  background-color: #3b5998 !important;
+}
+.btn-social.tw-ic {
+  background-color: #1da1f2 !important;
+}
+.btn-social.yt-ic {
+  background-color: #ff0000 !important;
+}
+.btn-social.in-ic {
+  background-color: #2e5e86 !important;
+}
+.btn-social.wp-ic {
+  background-color: #21759b !important;
+}
+
+.card-footer > .btn-social {
+  margin: 0 10px;
 }
 
 html,
@@ -24,6 +65,15 @@ header,
   height: 100%;
 }
 
+.article-img {
+  max-width: 300px;
+}
+
+@media (max-width: 767.98px) {
+  .article-img {
+    max-width: 100%;
+  }
+}
 @media (max-width: 740px) {
   html,
 body,

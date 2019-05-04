@@ -37,8 +37,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark slr_color top-nav-collapse">
-    <a class="navbar-brand" href="#">
+<nav class="navbar navbar-expand-lg navbar-dark slr_color_primary top-nav-collapse">
+    <a class="navbar-brand" href="/">
         <img src="assets/images/logo.png" style="max-height: 50px;" alt="SimLiveRadio"> <b>SimLiveRadio</b>
     </a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
 
     <div class="collapse navbar-collapse" id="topNav">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a href="#" class="nav-link">Hören</a></li>
+            <li class="nav-item"><a href="/hoeren.html" class="nav-link">Hören</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Sendeplan</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Wunschbox</a></li>
             <li class="nav-item active"><a href="news.html" class="nav-link">News <span class="sr-only">(current)</span></a></li>
@@ -74,52 +74,54 @@
     <h2 class="h1-responsive font-weight-bold mt-5 mb-3">News</h2>
     <hr class="hr-dark mx-0 mr-auto mb-5" style="width: 120px; border-top-width: 5px; border-top-color: #ef6700;">
     <div class="row">
-        <div class="col-lg-3 order-last mt-lg-0">
+        <div class="col-lg-3 order-last mt-5 mt-lg-0">
             <div class="card bg-transparent">
                 <div class="card-header slr_color_primary">
                     <h3 class="font-weight-bold text-white mb-0">Kategorie</h3>
                 </div>
                 <ul class="list-group list-group-flush rgba-black-light">
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Aktuelles über SimLiveRadio</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Events</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Gamescom 2018</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Gamescom 2019</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Mediathek</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Beiträge</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Sendungen</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Videos</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> News aus der Simulationsszene</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> American Truck Simulator</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Euro Truck Simulator 2</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> LOTUS</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Train Sim World</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Train Simulator</li>
-                    <li class="list-group-item"><i class="fas fa-chevron-right"></i> Unkategorisiert</li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Aktuelles über SimLiveRadio</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Events</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Gamescom 2018</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Gamescom 2019</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Mediathek</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Beiträge</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Sendungen</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Videos</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> News aus der Simulationsszene</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> American Truck Simulator</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Euro Truck Simulator 2</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> LOTUS</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Train Sim World</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Train Simulator</a></li>
+                    <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Unkategorisiert</a></li>
                 </ul>
             </div>
             <div class="card bg-transparent my-5">
-                <a class="card-header slr_color_primary text-white" data-toggle="collapse" href="#newsArchive" aria-expanded="false" aria-controls="newsArchive">
-                    <h3 class="h3-responsive font-weight-bold">
-                        Archive
+                <div class="card-header slr_color_primary text-white">
+                    <h3 class="h3-responsive font-weight-bold mb-0">
+                        <a class="text-reset stretched-link" href="#newsArchive" data-toggle="collapse" aria-expanded="false" aria-controls="newsArchive">
+                            Archive
+                        </a>
                     </h3>
-                </a>
+                </div>
                 <div class="collapse" id="newsArchive">
                     <ul class="list-group list-group-flush rgba-black-light">
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Mai 2019</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> April 2019</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> März 2019</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Februar 2019</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Januar 2019</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Dezember 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> November 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Oktober 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> September 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> August 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Juli 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Juni 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> Mai 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> April 2018</li>
-                        <li class="list-group-item"><i class="fas fa-chevron-right"></i> März 2018</li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Mai 2019</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> April 2019</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> März 2019</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Februar 2019</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Januar 2019</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Dezember 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> November 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Oktober 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> September 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> August 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Juli 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Juni 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> Mai 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> April 2018</a></li>
+                        <li class="list-group-item"><a class="text-reset stretched-link" href="#!"><i class="fas fa-chevron-right"></i> März 2018</a></li>
                     </ul>
                 </div>
             </div>
@@ -134,8 +136,8 @@
 
                         <!-- Featured image -->
                         <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4 h-auto">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Sample image">
-                            <a>
+                            <img class="img-fluid" src="https://simliveradio.net/wp-content/uploads/2019/04/microphone-stream_tobii.jpg" alt="Sample image">
+                            <a href="/news/ets2.html">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
                         </div>
@@ -147,15 +149,15 @@
                     <div class="col-lg-7 col-xl-8">
 
                         <!-- Post title -->
-                        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
+                        <h3 class="font-weight-bold mb-3"><strong>ETS 2 Preview Stream Version 1.35 mit Giveaway</strong></h3>
                         <!-- Excerpt -->
-                        <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
-                            quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
-                            et aut officiis debitis cum soluta nobis est eligendi placeat facere aut rerum.</p>
+                        <p class="dark-grey-text">Meistens stellt SCS Software kommende Updates auf blog.scssoft.com schrifltich vor – für die Version 1.35 laden sie Euch diesmal jedoch wieder in
+                            ihren Stream ein. +++SCS Software hat heute bekannt gegeben, dass am 02.05. um 15:00 UTC ein Stream stattfinden wird, in dem die kommende Version 1.35 für ETS2 vorgestellt
+                            wird.+++ Das ganze findet sowohl auf Twitch als auch auf Steam statt. Neben Alex (LondonLad) werden Euch weitere Mitarbeiter…</p>
                         <!-- Post data -->
-                        <p>by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018</p>
+                        <p>von <a class="font-weight-bold">Janik</a>, 30. April 2019</p>
                         <!-- Read more button -->
-                        <a class="btn btn-primary btn-md">Read more</a>
+                        <a class="btn btn-primary btn-md" href="/news/ets2.html">Weiter lesen</a>
 
                     </div>
                     <!-- Grid column -->
@@ -192,9 +194,9 @@
                             praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
                             cupiditate non provident et accusamus iusto odio dignissimos et dolorum fuga.</p>
                         <!-- Post data -->
-                        <p>by <a class="font-weight-bold">Jessica Clark</a>, 16/04/2018</p>
+                        <p>von <a class="font-weight-bold">Jessica Clark</a>, 16.04.2018</p>
                         <!-- Read more button -->
-                        <a class="btn btn-primary btn-md">Read more</a>
+                        <a class="btn btn-primary btn-md">Weiter lesen</a>
 
                     </div>
                     <!-- Grid column -->
@@ -231,126 +233,9 @@
                             quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
                             qui dolorem ipsum quia dolor sit amet, psam voluptatem quia consectetur.</p>
                         <!-- Post data -->
-                        <p>by <a class="font-weight-bold">Jessica Clark</a>, 12/04/2018</p>
+                        <p>von <a class="font-weight-bold">Jessica Clark</a>, 12.04.2018</p>
                         <!-- Read more button -->
-                        <a class="btn btn-primary btn-md">Read more</a>
-
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-                <hr class="my-5">
-
-                <!-- Grid row -->
-                <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-lg-5 col-xl-4 d-flex align-items-center">
-
-                        <!-- Featured image -->
-                        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4 h-auto">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" alt="Sample image">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-lg-7 col-xl-8">
-
-                        <!-- Post title -->
-                        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                        <!-- Excerpt -->
-                        <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
-                            quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
-                            et aut officiis debitis cum soluta nobis est eligendi placeat facere aut rerum.</p>
-                        <!-- Post data -->
-                        <p>by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018</p>
-                        <!-- Read more button -->
-                        <a class="btn btn-primary btn-md">Read more</a>
-
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-                <hr class="my-5">
-
-                <!-- Grid row -->
-                <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-lg-5 col-xl-4 d-flex align-items-center">
-
-                        <!-- Featured image -->
-                        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4 h-auto">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/31.jpg" alt="Sample image">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-lg-7 col-xl-8">
-
-                        <!-- Post title -->
-                        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                        <!-- Excerpt -->
-                        <p class="dark-grey-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                            cupiditate non provident et accusamus iusto odio dignissimos et dolorum fuga.</p>
-                        <!-- Post data -->
-                        <p>by <a class="font-weight-bold">Jessica Clark</a>, 16/04/2018</p>
-                        <!-- Read more button -->
-                        <a class="btn btn-primary btn-md">Read more</a>
-
-                    </div>
-                    <!-- Grid column -->
-
-                </div>
-                <!-- Grid row -->
-
-                <hr class="my-5">
-
-                <!-- Grid row -->
-                <div class="row">
-
-                    <!-- Grid column -->
-                    <div class="col-lg-5 col-xl-4 d-flex align-items-center">
-
-                        <!-- Featured image -->
-                        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4 h-auto">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg" alt="Sample image">
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-lg-7 col-xl-8">
-
-                        <!-- Post title -->
-                        <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                        <!-- Excerpt -->
-                        <p class="dark-grey-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
-                            quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                            qui dolorem ipsum quia dolor sit amet, psam voluptatem quia consectetur.</p>
-                        <!-- Post data -->
-                        <p>by <a class="font-weight-bold">Jessica Clark</a>, 12/04/2018</p>
-                        <!-- Read more button -->
-                        <a class="btn btn-primary btn-md">Read more</a>
+                        <a class="btn btn-primary btn-md">Weiter lesen</a>
 
                     </div>
                     <!-- Grid column -->
@@ -365,7 +250,7 @@
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
-    <div class="slr_color">
+    <div class="slr_color_secodary">
         <div class="container">
 
             <!-- Grid row-->
@@ -421,7 +306,7 @@
 
                 <!-- Content -->
                 <h6 class="text-uppercase font-weight-bold">SimLiveRadio.net</h6>
-                <hr class="slr_color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="slr_color_primary mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>SimLiveRadio ist der von der Simulations-Community produzierte Radiosender mit dem Simulationsrundumservice. Nur bei uns gibt's neben guter Musik auch News und
                     Verkehrsmeldungen für alle Simulationsspiele.</p>
 
@@ -433,7 +318,7 @@
 
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Rechtliches</h6>
-                <hr class="slr_color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="slr_color_primary mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
                     <a href="#!">Impressum</a>
                 </p>
@@ -449,7 +334,7 @@
 
                 <!-- Links -->
                 <h6 class="text-uppercase font-weight-bold">Kontakt</h6>
-                <hr class="slr_color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <hr class="slr_color_primary mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>
                     <i class="fas fa-envelope mr-3"></i> info@simliveradio.net</p>
                 <p>
@@ -468,7 +353,7 @@
     <div class="footer-copyright text-center py-3">&copy; 2015
         <script>new Date().getFullYear() > 2015 && document.write("-" + new Date().getFullYear());</script>
         Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> SimLiveRadio.net </a>
+        <a href="#!"> SimLiveRadio.net </a>
         &mdash; Made by Lapotor
     </div>
     <!-- Copyright -->
