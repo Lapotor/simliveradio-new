@@ -114,6 +114,9 @@ header,
 .navbar-collapse {
   transition: 0.7s all;
 }
+.navbar-collapse #icon {
+  transition: 0.7s all;
+}
 .navbar-collapse a.dropdown-item {
   color: #ffffff !important;
 }
@@ -143,6 +146,9 @@ header,
 
 .top-nav-collapse {
   background-color: #ef6700;
+}
+.top-nav-collapse #icon * {
+  fill: white;
 }
 .top-nav-collapse .dropdown-menu {
   border-top: none;
@@ -213,6 +219,14 @@ header,
 .btn-slr-sec {
   background-color: #4225cc !important;
   color: #fff;
+}
+
+#icon {
+  margin-right: 0.5rem;
+  max-height: 50px;
+}
+#icon * {
+  transition: 0.7s all;
 }
 
 /*# sourceMappingURL=style.css.map */

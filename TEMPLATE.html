@@ -38,8 +38,9 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark slr_color top-nav-collapse">
-    <a class="navbar-brand" href="/">
-        <img src="/assets/images/logo.png" style="max-height: 50px;" alt="SimLiveRadio"> <b>SimLiveRadio</b>
+    <a class="navbar-brand d-flex align-items-center" href="/">
+        <img src="assets/images/SLR_Logo.svg" class="isvg" id="icon" alt="SimLiveRadio">
+        <b>SimLiveRadio</b>
     </a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -194,10 +195,17 @@
 <script type="text/javascript" src="/vendor/MDBootstrap/js/bootstrap.min.js"></script>
 <!-- MDBootstrap -->
 <script type="text/javascript" src="/vendor/MDBootstrap/js/mdb.min.js"></script>
+<!-- ISVG -->
+<script type="text/javascript" src="vendor/jquery-isvg/js/isvg.js"></script>
 
 <!-- OWN SCRIPTS -->
 <script type="text/javascript">
     new WOW().init();
+    $(function () {
+        $.isvg();
+        $.isvg.inheritClass( false );
+        $.isvg.inheritId( true );
+    });
 </script>
 </body>
 </html>

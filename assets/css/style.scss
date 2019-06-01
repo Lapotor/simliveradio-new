@@ -123,7 +123,9 @@ header,
 
 .navbar-collapse {
     transition: .7s all;
-
+    #icon {
+        transition: .7s all;
+    }
     a.dropdown-item {
         color: #ffffff !important;
 
@@ -156,6 +158,12 @@ header,
 
 .top-nav-collapse {
     background-color: $slr_color_primary;
+
+    #icon {
+        *{
+            fill: white;
+        }
+    }
 
     .dropdown-menu {
         border-top: none;
@@ -240,4 +248,12 @@ header,
 .btn-slr-sec {
     background-color: $slr_color_secondary !important;
     color: #fff;
+}
+
+#icon {
+    margin-right: .5rem;
+    max-height: 50px;
+    * {
+        transition: .7s all;
+    }
 }
