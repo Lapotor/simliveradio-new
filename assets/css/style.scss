@@ -200,6 +200,19 @@ header,
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: $slr_color_primary;
+        .dropdown-menu {
+            border-top: none;
+            background-color: $slr_color_primary !important;
+
+            a:hover {
+                background-color: rgba(0, 0, 0, .3) !important;
+            }
+        }
+    }
+    #icon {
+        *{
+            fill: white;
+        }
     }
 }
 

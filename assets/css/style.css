@@ -177,6 +177,17 @@ header,
   .navbar {
     background-color: #ef6700;
   }
+  .navbar .dropdown-menu {
+    border-top: none;
+    background-color: #ef6700 !important;
+  }
+  .navbar .dropdown-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+  }
+
+  #icon * {
+    fill: white;
+  }
 }
 /* Full Page Carousel itself*/
 .carousel {
