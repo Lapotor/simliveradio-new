@@ -221,6 +221,10 @@ header,
   color: #fff;
 }
 
+.dropdown-menu-scroll {
+  overflow-x: auto;
+}
+
 #icon {
   margin-right: 0.5rem;
   max-height: 50px;
